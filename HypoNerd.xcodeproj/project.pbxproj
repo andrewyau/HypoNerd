@@ -85,6 +85,7 @@
 		EC85FA2C1B950D560048320D /* HypoNerd */ = {
 			isa = PBXGroup;
 			children = (
+				EC85FA5E1B95178F0048320D /* BNRReminderViewController.xib */,
 				EC85FA311B950D560048320D /* AppDelegate.h */,
 				EC85FA321B950D560048320D /* AppDelegate.m */,
 				EC85FA531B9511EF0048320D /* BNRHypnosisView.h */,
@@ -95,7 +96,6 @@
 				EC85FA571B9512620048320D /* BNRHypnosisViewController.m */,
 				EC85FA591B9515DF0048320D /* BNRReminderViewController.h */,
 				EC85FA5A1B9515DF0048320D /* BNRReminderViewController.m */,
-				EC85FA5E1B95178F0048320D /* BNRReminderViewController.xib */,
 			);
 			path = HypoNerd;
 			sourceTree = "<group>";
