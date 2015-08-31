@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC85FA301B950D560048320D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC85FA2F1B950D560048320D /* main.m */; };
+		EC85FA331B950D560048320D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC85FA321B950D560048320D /* AppDelegate.m */; };
+		EC85FA361B950D560048320D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC85FA351B950D560048320D /* ViewController.m */; };
+		EC85FA391B950D560048320D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC85FA371B950D560048320D /* Main.storyboard */; };
+		EC85FA3B1B950D560048320D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC85FA3A1B950D560048320D /* Images.xcassets */; };
+		EC85FA3E1B950D560048320D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC85FA3C1B950D560048320D /* LaunchScreen.xib */; };
+		EC85FA4A1B950D560048320D /* HypoNerdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC85FA491B950D560048320D /* HypoNerdTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC85FA441B950D560048320D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC85FA221B950D560048320D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC85FA291B950D560048320D;
+			remoteInfo = HypoNerd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC85FA2A1B950D560048320D /* HypoNerd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypoNerd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC85FA2E1B950D560048320D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC85FA2F1B950D560048320D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC85FA311B950D560048320D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC85FA321B950D560048320D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC85FA341B950D560048320D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC85FA351B950D560048320D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC85FA381B950D560048320D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC85FA3A1B950D560048320D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC85FA3D1B950D560048320D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC85FA431B950D560048320D /* HypoNerdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypoNerdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC85FA481B950D560048320D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC85FA491B950D560048320D /* HypoNerdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypoNerdTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC85FA271B950D560048320D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC85FA401B950D560048320D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC85FA211B950D560048320D = {
+			isa = PBXGroup;
+			children = (
+				EC85FA2C1B950D560048320D /* HypoNerd */,
+				EC85FA461B950D560048320D /* HypoNerdTests */,
+				EC85FA2B1B950D560048320D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC85FA2B1B950D560048320D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC85FA2A1B950D560048320D /* HypoNerd.app */,
+				EC85FA431B950D560048320D /* HypoNerdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC85FA2C1B950D560048320D /* HypoNerd */ = {
+			isa = PBXGroup;
+			children = (
+				EC85FA311B950D560048320D /* AppDelegate.h */,
+				EC85FA321B950D560048320D /* AppDelegate.m */,
+				EC85FA341B950D560048320D /* ViewController.h */,
+				EC85FA351B950D560048320D /* ViewController.m */,
+				EC85FA371B950D560048320D /* Main.storyboard */,
+				EC85FA3A1B950D560048320D /* Images.xcassets */,
+				EC85FA3C1B950D560048320D /* LaunchScreen.xib */,
+				EC85FA2D1B950D560048320D /* Supporting Files */,
+			);
+			path = HypoNerd;
+			sourceTree = "<group>";
+		};
+		EC85FA2D1B950D560048320D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC85FA2E1B950D560048320D /* Info.plist */,
+				EC85FA2F1B950D560048320D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC85FA461B950D560048320D /* HypoNerdTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC85FA491B950D560048320D /* HypoNerdTests.m */,
+				EC85FA471B950D560048320D /* Supporting Files */,
+			);
+			path = HypoNerdTests;
+			sourceTree = "<group>";
+		};
+		EC85FA471B950D560048320D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC85FA481B950D560048320D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC85FA291B950D560048320D /* HypoNerd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC85FA4D1B950D560048320D /* Build configuration list for PBXNativeTarget "HypoNerd" */;
+			buildPhases = (
+				EC85FA261B950D560048320D /* Sources */,
+				EC85FA271B950D560048320D /* Frameworks */,
+				EC85FA281B950D560048320D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HypoNerd;
+			productName = HypoNerd;
+			productReference = EC85FA2A1B950D560048320D /* HypoNerd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC85FA421B950D560048320D /* HypoNerdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC85FA501B950D560048320D /* Build configuration list for PBXNativeTarget "HypoNerdTests" */;
+			buildPhases = (
+				EC85FA3F1B950D560048320D /* Sources */,
+				EC85FA401B950D560048320D /* Frameworks */,
+				EC85FA411B950D560048320D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC85FA451B950D560048320D /* PBXTargetDependency */,
+			);
+			name = HypoNerdTests;
+			productName = HypoNerdTests;
+			productReference = EC85FA431B950D560048320D /* HypoNerdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC85FA221B950D560048320D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Andrew Yau";
+				TargetAttributes = {
+					EC85FA291B950D560048320D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EC85FA421B950D560048320D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EC85FA291B950D560048320D;
+					};
+				};
+			};
+			buildConfigurationList = EC85FA251B950D560048320D /* Build configuration list for PBXProject "HypoNerd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC85FA211B950D560048320D;
+			productRefGroup = EC85FA2B1B950D560048320D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC85FA291B950D560048320D /* HypoNerd */,
+				EC85FA421B950D560048320D /* HypoNerdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC85FA281B950D560048320D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC85FA391B950D560048320D /* Main.storyboard in Resources */,
+				EC85FA3E1B950D560048320D /* LaunchScreen.xib in Resources */,
+				EC85FA3B1B950D560048320D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC85FA411B950D560048320D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC85FA261B950D560048320D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC85FA361B950D560048320D /* ViewController.m in Sources */,
+				EC85FA331B950D560048320D /* AppDelegate.m in Sources */,
+				EC85FA301B950D560048320D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC85FA3F1B950D560048320D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC85FA4A1B950D560048320D /* HypoNerdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC85FA451B950D560048320D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC85FA291B950D560048320D /* HypoNerd */;
+			targetProxy = EC85FA441B950D560048320D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC85FA371B950D560048320D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC85FA381B950D560048320D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC85FA3C1B950D560048320D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC85FA3D1B950D560048320D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC85FA4B1B950D560048320D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC85FA4C1B950D560048320D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC85FA4E1B950D560048320D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HypoNerd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC85FA4F1B950D560048320D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HypoNerd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC85FA511B950D560048320D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HypoNerdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HypoNerd.app/HypoNerd";
+			};
+			name = Debug;
+		};
+		EC85FA521B950D560048320D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HypoNerdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HypoNerd.app/HypoNerd";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC85FA251B950D560048320D /* Build configuration list for PBXProject "HypoNerd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC85FA4B1B950D560048320D /* Debug */,
+				EC85FA4C1B950D560048320D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC85FA4D1B950D560048320D /* Build configuration list for PBXNativeTarget "HypoNerd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC85FA4E1B950D560048320D /* Debug */,
+				EC85FA4F1B950D560048320D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC85FA501B950D560048320D /* Build configuration list for PBXNativeTarget "HypoNerdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC85FA511B950D560048320D /* Debug */,
+				EC85FA521B950D560048320D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC85FA221B950D560048320D /* Project object */;
+}
