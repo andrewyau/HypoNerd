@@ -14,7 +14,7 @@
 		EC85FA551B9511EF0048320D /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC85FA541B9511EF0048320D /* BNRHypnosisView.m */; };
 		EC85FA581B9512620048320D /* BNRHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC85FA571B9512620048320D /* BNRHypnosisViewController.m */; };
 		EC85FA5B1B9515DF0048320D /* BNRReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC85FA5A1B9515DF0048320D /* BNRReminderViewController.m */; };
-		EC85FA5F1B95178F0048320D /* BNRReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC85FA5E1B95178F0048320D /* BNRReminderViewController.xib */; };
+		EC85FA611B951C4D0048320D /* BNRReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC85FA601B951C4D0048320D /* BNRReminderViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,7 @@
 		EC85FA571B9512620048320D /* BNRHypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisViewController.m; sourceTree = "<group>"; };
 		EC85FA591B9515DF0048320D /* BNRReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRReminderViewController.h; sourceTree = "<group>"; };
 		EC85FA5A1B9515DF0048320D /* BNRReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRReminderViewController.m; sourceTree = "<group>"; };
-		EC85FA5E1B95178F0048320D /* BNRReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRReminderViewController.xib; sourceTree = SOURCE_ROOT; };
+		EC85FA601B951C4D0048320D /* BNRReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRReminderViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 		EC85FA2C1B950D560048320D /* HypoNerd */ = {
 			isa = PBXGroup;
 			children = (
-				EC85FA5E1B95178F0048320D /* BNRReminderViewController.xib */,
+				EC85FA601B951C4D0048320D /* BNRReminderViewController.xib */,
 				EC85FA311B950D560048320D /* AppDelegate.h */,
 				EC85FA321B950D560048320D /* AppDelegate.m */,
 				EC85FA531B9511EF0048320D /* BNRHypnosisView.h */,
@@ -207,7 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC85FA3B1B950D560048320D /* Images.xcassets in Resources */,
-				EC85FA5F1B95178F0048320D /* BNRReminderViewController.xib in Resources */,
+				EC85FA611B951C4D0048320D /* BNRReminderViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +405,7 @@
 				EC85FA4F1B950D560048320D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC85FA501B950D560048320D /* Build configuration list for PBXNativeTarget "HypoNerdTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				EC85FA521B950D560048320D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
