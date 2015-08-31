@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		EC85FA301B950D560048320D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC85FA2F1B950D560048320D /* main.m */; };
 		EC85FA331B950D560048320D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC85FA321B950D560048320D /* AppDelegate.m */; };
-		EC85FA361B950D560048320D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC85FA351B950D560048320D /* ViewController.m */; };
-		EC85FA391B950D560048320D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC85FA371B950D560048320D /* Main.storyboard */; };
 		EC85FA3B1B950D560048320D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC85FA3A1B950D560048320D /* Images.xcassets */; };
-		EC85FA3E1B950D560048320D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC85FA3C1B950D560048320D /* LaunchScreen.xib */; };
 		EC85FA4A1B950D560048320D /* HypoNerdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC85FA491B950D560048320D /* HypoNerdTests.m */; };
+		EC85FA551B9511EF0048320D /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC85FA541B9511EF0048320D /* BNRHypnosisView.m */; };
+		EC85FA581B9512620048320D /* BNRHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC85FA571B9512620048320D /* BNRHypnosisViewController.m */; };
+		EC85FA5B1B9515DF0048320D /* BNRReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC85FA5A1B9515DF0048320D /* BNRReminderViewController.m */; };
+		EC85FA5F1B95178F0048320D /* BNRReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC85FA5E1B95178F0048320D /* BNRReminderViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,17 @@
 		EC85FA2F1B950D560048320D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC85FA311B950D560048320D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC85FA321B950D560048320D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EC85FA341B950D560048320D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EC85FA351B950D560048320D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EC85FA381B950D560048320D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC85FA3A1B950D560048320D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EC85FA3D1B950D560048320D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EC85FA431B950D560048320D /* HypoNerdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypoNerdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC85FA481B950D560048320D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC85FA491B950D560048320D /* HypoNerdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypoNerdTests.m; sourceTree = "<group>"; };
+		EC85FA531B9511EF0048320D /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRHypnosisView.h; path = ../../Hypnosister/Hypnosister/BNRHypnosisView.h; sourceTree = "<group>"; };
+		EC85FA541B9511EF0048320D /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRHypnosisView.m; path = ../../Hypnosister/Hypnosister/BNRHypnosisView.m; sourceTree = "<group>"; };
+		EC85FA561B9512620048320D /* BNRHypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisViewController.h; sourceTree = "<group>"; };
+		EC85FA571B9512620048320D /* BNRHypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisViewController.m; sourceTree = "<group>"; };
+		EC85FA591B9515DF0048320D /* BNRReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRReminderViewController.h; sourceTree = "<group>"; };
+		EC85FA5A1B9515DF0048320D /* BNRReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRReminderViewController.m; sourceTree = "<group>"; };
+		EC85FA5E1B95178F0048320D /* BNRReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRReminderViewController.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +87,15 @@
 			children = (
 				EC85FA311B950D560048320D /* AppDelegate.h */,
 				EC85FA321B950D560048320D /* AppDelegate.m */,
-				EC85FA341B950D560048320D /* ViewController.h */,
-				EC85FA351B950D560048320D /* ViewController.m */,
-				EC85FA371B950D560048320D /* Main.storyboard */,
+				EC85FA531B9511EF0048320D /* BNRHypnosisView.h */,
+				EC85FA541B9511EF0048320D /* BNRHypnosisView.m */,
 				EC85FA3A1B950D560048320D /* Images.xcassets */,
-				EC85FA3C1B950D560048320D /* LaunchScreen.xib */,
 				EC85FA2D1B950D560048320D /* Supporting Files */,
+				EC85FA561B9512620048320D /* BNRHypnosisViewController.h */,
+				EC85FA571B9512620048320D /* BNRHypnosisViewController.m */,
+				EC85FA591B9515DF0048320D /* BNRReminderViewController.h */,
+				EC85FA5A1B9515DF0048320D /* BNRReminderViewController.m */,
+				EC85FA5E1B95178F0048320D /* BNRReminderViewController.xib */,
 			);
 			path = HypoNerd;
 			sourceTree = "<group>";
@@ -199,9 +206,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC85FA391B950D560048320D /* Main.storyboard in Resources */,
-				EC85FA3E1B950D560048320D /* LaunchScreen.xib in Resources */,
 				EC85FA3B1B950D560048320D /* Images.xcassets in Resources */,
+				EC85FA5F1B95178F0048320D /* BNRReminderViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC85FA361B950D560048320D /* ViewController.m in Sources */,
+				EC85FA581B9512620048320D /* BNRHypnosisViewController.m in Sources */,
 				EC85FA331B950D560048320D /* AppDelegate.m in Sources */,
 				EC85FA301B950D560048320D /* main.m in Sources */,
+				EC85FA5B1B9515DF0048320D /* BNRReminderViewController.m in Sources */,
+				EC85FA551B9511EF0048320D /* BNRHypnosisView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +250,6 @@
 			targetProxy = EC85FA441B950D560048320D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EC85FA371B950D560048320D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC85FA381B950D560048320D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EC85FA3C1B950D560048320D /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC85FA3D1B950D560048320D /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EC85FA4B1B950D560048320D /* Debug */ = {
